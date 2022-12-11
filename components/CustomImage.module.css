@@ -1,0 +1,22 @@
+.customImg {
+    object-fit: contain;
+    width: auto !important;
+    max-width: 100% !important;
+    position: relative !important;
+    height: unset !important;
+    min-width: unset !important;
+    min-height: unset !important;
+}
+.circle{
+    border-radius: 50% !important;
+}
+.unsetImg {
+    max-width: 100%;
+    width: auto !important;
+    min-width: unset !important;
+    position: relative;
+    z-index: 9999;
+}
+.unsetImg > span {
+    position: unset !important;
+}
